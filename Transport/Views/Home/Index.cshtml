@@ -10,12 +10,10 @@
 </div>
 
 <script>
-	//создадим карту и зададим ей позицию
 	var map = L.map('map').setView([56.8382, 60.6035], 13);
-	//добавим на карту растровый слой из тайлов
-	//в данном случае это будет стандартная карта OpenStreetMap
-	L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-		attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+
+	L.tileLayer('http://{s}.tile.osm.kosmosnimki.ru/kosmo/{z}/{x}/{y}.png', {
+		attribution: '&copy; <a href="http://kosmosnimki.ru/">Scanex</a>| &copy <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 	}).addTo(map);
 
 </script>
