@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transport", "Transport\Transport.csproj", "{5E8C5E69-EC8D-4554-90A0-C34BEFBE062C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transport.DbConnector", "DbConnector\Transport.DbConnector.csproj", "{6591E519-5CDF-422B-94E0-F094EE271ED4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transport.OSMReader", "Transport.OSMReader\Transport.OSMReader.csproj", "{E50160E1-0C04-40EA-8BF8-1571786759B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{5E8C5E69-EC8D-4554-90A0-C34BEFBE062C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E8C5E69-EC8D-4554-90A0-C34BEFBE062C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E8C5E69-EC8D-4554-90A0-C34BEFBE062C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6591E519-5CDF-422B-94E0-F094EE271ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6591E519-5CDF-422B-94E0-F094EE271ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6591E519-5CDF-422B-94E0-F094EE271ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6591E519-5CDF-422B-94E0-F094EE271ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E50160E1-0C04-40EA-8BF8-1571786759B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E50160E1-0C04-40EA-8BF8-1571786759B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E50160E1-0C04-40EA-8BF8-1571786759B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E50160E1-0C04-40EA-8BF8-1571786759B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
